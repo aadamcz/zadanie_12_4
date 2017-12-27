@@ -1,7 +1,5 @@
 var url = 'http://api.icndb.com/jokes/random';
 
-//$('p').load(url, getJoke);
-
 $(document).ready(getJoke);
 
 var button = document.getElementById('get-joke');
